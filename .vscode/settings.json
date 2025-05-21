@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "backend/node_modules": true,
+        "client/node_modules": true,
+        ".gitignore": true,
+        "client/.gitignore": true,
+        "backend/.gitignore": true,
+        "backend/.env": false,
+        ".env": true,
+        "node_modules": true,
+        
+        "client": false 
+    }
+}

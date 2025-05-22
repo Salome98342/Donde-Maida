@@ -1,0 +1,162 @@
+/* Fuente global */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Fondo claro para el contenido */
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Diseño del logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 1rem;
+}
+
+/* Cabecera y fondo oscuro */
+.App-header {
+  background-color: #1c1c1c; /* Un tono más suave que el anterior */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Enlaces con color atractivo */
+.App-link {
+  color: #d4af37; /* Color dorado */
+}
+
+/* Animación del logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-logo:hover {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+/* Estilo para el formulario */
+.login-container {
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #d4af37; /* Color dorado */
+  margin-bottom: 1rem;
+}
+
+/* Botones */
+.btn {
+  border-radius: 30px;
+  padding: 12px 18px;
+  font-size: 1rem;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Barra lateral del Dashboard */
+nav {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 2rem 1rem;
+  height: 100vh;
+  box-shadow: 3px 0 6px rgba(0, 0, 0, 0.2);
+}
+
+nav .nav-item button {
+  background-color: #333;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+nav .nav-item button:hover {
+  background-color: #d4af37; /* Color dorado */
+}
+
+nav .btn-danger {
+  background-color: #dc3545;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+/* Contenido principal */
+main {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+main h1 {
+  color: #333;
+}
+
+main .border {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    padding: 1rem;
+  }
+
+  .login-container {
+    padding: 1.5rem;
+  }
+
+  nav {
+    padding: 1rem;
+  }
+}
